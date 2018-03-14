@@ -25,7 +25,7 @@ const returnBackInSecond = () => {};
 const getDeepPropertiesCount = () => {};
 const createSerializedObject = () => {return null};
 const toBuffer = () => {};
-const sortByProto = () => {};
+
 const sortByProto = (arr) => {
     arr.sort((a, b) => {
         return a.x - b.x;})
