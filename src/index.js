@@ -1,3 +1,4 @@
+
 // DO WHATEVER YOU WANT HERE
 
 const createEnumerableProperty = (enumProperty) => {return enumProperty};
@@ -25,6 +26,11 @@ const getDeepPropertiesCount = () => {};
 const createSerializedObject = () => {return null};
 const toBuffer = () => {};
 const sortByProto = () => {};
+const sortByProto = (arr) => {
+    arr.sort((a, b) => {
+        return a.x - b.x;})
+return arr;
+};
 
 exports.createEnumerableProperty = createEnumerableProperty;
 exports.createNotEnumerableProperty = createNotEnumerableProperty;
